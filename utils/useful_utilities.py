@@ -184,7 +184,7 @@ def recommendations(claims: list, reverts: list, pharmacy_chains: list) -> list:
     return ndc_recommendations
 
 
-def most_prescribed(claims: list, reverts: list) -> list:
+def most_prescribed(claims: list, reverts: list, pharmacy_chains: list) -> list:
     """
     Identifies the most commonly prescribed quantities for each NDC.
 
